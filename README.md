@@ -1,5 +1,7 @@
-# ReactNativeWebHelloWorld
+# react-native-web-helloworld
+Boilerplate for React-redux web, ios and android application
 
+# ReactNativeWebHelloWorld
 A way to share application logic between a React Web app and a React Native app,
 while keeping the individual component rendering unique to each platform.
 
@@ -109,3 +111,5 @@ between local storage mechanisms.
 [gs]: https://facebook.github.io/react-native/docs/getting-started.html
 [bp]: https://github.com/kauffecup/react-redux-webpack-boilerplate
 [bg]: http://jkaufman.io/react-web-native-codesharing/
+
+
