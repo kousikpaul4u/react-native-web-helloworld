@@ -8,16 +8,6 @@ while keeping the individual component rendering unique to each platform.
 For a thorough discussion of this project, please read my [Blog Post][bg] about
 it.
 
-## The app
-
-React Native                              |  React Web
-:----------------------------------------:|:-------------------------------------:
-![native](http://i.imgur.com/OvstUk4.gif) | ![web](http://i.imgur.com/siF0aYJ.gif)
-
-The app itself is a very simple Hello World (ish) app. Not only does it show
-"Hello World"... but when you click (or tap) it... it changes from red to blue!
-woah!
-
 ## Technologies Used
 
   - [React](https://facebook.github.io/react/)
