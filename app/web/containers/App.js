@@ -1,8 +1,8 @@
 import React, { Component, PropTypes } from 'react';
 import { connect } from 'react-redux';
 // dumb components
-import Header     from '../components/Header';
-import HelloWorld from '../components/HelloWorld';
+import Charts from '../components/Charts';
+
 // actions
 import {
   toggleColor,
@@ -16,11 +16,7 @@ class ReactNativeWebHelloWorld extends Component {
 
     return (
       <div className="react-native-web">
-        <Header />
-        <HelloWorld
-          onClick={() => dispatch(toggleColor())}
-          color={color}
-        />
+        <Charts />
       </div>
     );
   }
