@@ -1,5 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import {BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend} from 'recharts';
+import AppBar from 'material-ui/AppBar';
+
 const data = [
       {name: 'Page A', uv: 4000, pv: 2400, amt: 2400},
       {name: 'Page B', uv: 3000, pv: 1398, amt: 2210},
@@ -13,6 +15,10 @@ export default class Charts extends Component {
   render() {
     return (
       <div className="charts">
+        <AppBar
+          title="Title"
+          iconClassNameRight="muidocs-icon-navigation-expand-more"
+        />
 				<BarChart width={600} height={300} data={data}
             margin={{top: 20, right: 30, left: 20, bottom: 5}}>
 					<XAxis dataKey="name"/>
